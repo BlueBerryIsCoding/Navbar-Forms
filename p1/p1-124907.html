@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angelina, 124907</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body{
+        background-color: rgb(138, 143, 184);
+    }
+
+    img{
+        height: 160px;
+        display: block;
+        margin: 0 auto;
+        }
+
+    legend{
+        font-weight: bold;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: medium;
+    }
+
+    fieldset{
+        border: 2px solid  #660b63;
+        padding: 10px;
+        width: 80%; 
+        margin: 10px auto;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-size:smaller;
+        font-weight: 500;
+    }
+
+
+    .fon{
+        background-color: rgb(206, 225, 236) ;
+            border-radius: 10%;
+            border:3px solid #660b63;
+            box-shadow: 15px 15px 10px rgba(63, 3, 80, 0.5);            
+            width: 60%; 
+            height: 590px;
+            max-width: 500px; 
+            padding: 20px; 
+            margin: 0 auto;
+    }
+
+    button{
+        display: block;
+        width: 40%;
+        margin: 0 auto;
+        background-color: rgb(200, 162, 226);
+        border-radius: 8px;
+        border-color: solid #660b63;
+        font-family: "Montserrat Alternates", sans-serif;
+        font-weight: 600;
+    }
+
+
+</style>
+<body>
+    <div class="fon">
+    <form action="https://ue-varna.bg/bg/">
+
+        <img src="./snail2.png" alt="snail_logo">
+        
+
+<fieldset>
+    <legend>Данни за контакт</legend>
+        <label for="email">Имейл:</label>
+        <input type="email" name="email" id="email" placeholder="Въведете имейл..." required>
+    <br><br>
+        <label for="potvurdete_email">Потвърдете имейл:</label>
+        <input type="email" name="potvurdete_email" id="potvurdete_email" placeholder="Потвърдете имейл..." required>
+</fieldset><br>
+
+<fieldset>
+    <legend>Избор на парола</legend>
+        <label for="parola">Парола:</label>
+        <input type="password" name="parola" id="parola" placeholder="Въведете парола..." required>
+    <br><br>
+        <label for="potvurdete_parola">Потвърдете парола:</label>
+        <input type="password" name="potvurdete_parola" id="potvurdete_parola" placeholder="Потвърдете парола..." required>
+        <br>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Общи условия</legend>
+        <input type="checkbox" name="checkbox" id="checkbox" required>
+        <label for="checkbox">Съгласявам се с <a href="#">общите условия</a> за ползване на <span>Snail Economics</span>
+        </label>
+    </fieldset>
+<br>
+    <button type="submit">Регистрирай се!</button>
+
+
+    </form></div>
+    
+</body>
+</html>
